@@ -44,8 +44,8 @@ var text_area = document.getElementById("compass_content");
         
 	}
 
-    aaaaa     aaaaaaa  
+    /* aaaaa     aaaaaaa  
     aaaa    aaaa
-    aa     aaa
+    aa     aaa */
 
 
