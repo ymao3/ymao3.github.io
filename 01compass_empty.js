@@ -21,7 +21,7 @@ oriented = function(e) {
         }
 
         if(compassHeading >225 && compassHeading < 315){
-            text_area.textContent = "to the West, thinkingggggggggggggggggggggggg";
+            text_area.textContent = "aaaaa     aaaaaaa","aaaa    aaaa","aa     aaa";
         }
 
          
@@ -43,5 +43,9 @@ var text_area = document.getElementById("compass_content");
             text_area.textContent = "empty compass";
         
 	}
+
+    aaaaa     aaaaaaa  
+    aaaa    aaaa
+    aa     aaa
 
 
