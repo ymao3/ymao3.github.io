@@ -21,7 +21,7 @@ oriented = function(e) {
         }
 
         if(compassHeading >225 && compassHeading < 315){
-            text_area.textContent = "fuck wildpig";
+            text_area.textContent = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
         }
 
          
