@@ -25,14 +25,14 @@ oriented = function(e) {
         }
         if(compassHeading >165 && compassHeading < 255){
             text_area.textContent = "銇婂彴鍫存捣娴滃叕鍦�";
-        ｝
+        }
 
         if(compassHeading >225 && compassHeading < 315){
             text_area.textContent = "-----------WEST-----------------------tt-----------------------hhhh---------------------i-ii-i-------------------n--nn--n-----------------k---kk---k--------------------ii------------------------nn------------------------gg------------------------ii------------------------nn------------------------gg------------------------";
         }
         if(compassHeading >255 && compassHeading < 345){
             text_area.textContent = "TOYKO TOWER";
-        ｝
+        }
 
          
         //calls function to alter content based on heading
