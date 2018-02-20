@@ -9,7 +9,7 @@ oriented = function(e) {
         }
         
         if(compassHeading >315 || compassHeading < 45){
-            text_area.textContent = ("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ss&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+"uuuu"+"gg");
+            text_area.textContent = "------------ss-----------------------uuuu---------------------f-ff-f----------";
         }
 
         if(compassHeading >45 && compassHeading < 135){
