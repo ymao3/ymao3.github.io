@@ -9,7 +9,7 @@ oriented = function(e) {
         }
         
         if(compassHeading >315 || compassHeading < 45){
-            text_area.textContent = document.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ss&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbuuuu                     f ff f                   f  ff  f                 e   ee   e               r    rr    r                   ii                        nn                        gg                        ii                        nn                        gg");
+            text_area.textContent = document.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ss&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+"uuuu"+"gg");
         }
 
         if(compassHeading >45 && compassHeading < 135){
