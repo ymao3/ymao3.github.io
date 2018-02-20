@@ -21,6 +21,7 @@ oriented = function(e) {
         }
         if(compassHeading >110 && compassHeading < 150){
             text_area.textContent = "SUNSET"
+        }
         if(compassHeading >150 && compassHeading < 200){
             text_area.textContent = "-----------SOUTH----------------------cc-----------------------aaaa---------------------l-ll-l-------------------m--mm--m---------------------mm------------------------ii------------------------nn------------------------gg------------------------ii------------------------nn------------------------gg------------------------";
         }
