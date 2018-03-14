@@ -6,6 +6,7 @@ var drawCount;
 var video;
 var textsize;
 var canvas;
+var capture;
 var col = {
   r: 255,
   g: 0,
@@ -13,7 +14,7 @@ var col = {
 }
 
 function setup() {
-  console.log("11:47");
+  console.log("11:50");
  mirrorText = "who are you,excuse me,how are you,good,thanks,fuck";
  //split the text into units
  mirrorShadow = mirrorText.split(",")
@@ -30,6 +31,7 @@ function setup() {
  // give a initial value to drawCount
  drawCount = 0;
  canvas.style("z-index", 8);
+ capture.style("z-index", 1);
 }
 
 function draw() {
