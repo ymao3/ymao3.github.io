@@ -14,14 +14,14 @@ var col = {
 }
 
 function setup() {
-  console.log("2:19");
+  console.log("2:24");
  mirrorText = "who are you,excuse me,how are you,good,thanks,fuck";
  //split the text into units
  mirrorShadow = mirrorText.split(",")
  // build a canvas
  canvas = createCanvas(windowWidth, windowHeight);
  capture = createCapture(VIDEO);
- capture.size(windowWidth,windowHeight);
+ capture.size(window.innerWidth,window.innerHeight);
  //use a font
  textsize = random(5,100);
  textFont("courier", textsize);
@@ -43,7 +43,7 @@ function draw() {
   // we need a color for the text
   //background(255,255,255);
   if(drawCount == 0) {
-  image(capture, 0, 0);
+    image(capture, 0, 0);
     drawCount++
 }
   col.r = random(255);
