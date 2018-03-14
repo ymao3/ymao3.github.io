@@ -14,14 +14,14 @@ var col = {
 }
 
 function setup() {
-  console.log("11:55");
+  console.log("11:59");
  mirrorText = "who are you,excuse me,how are you,good,thanks,fuck";
  //split the text into units
  mirrorShadow = mirrorText.split(",")
  // build a canvas
  canvas = createCanvas(windowWidth, windowHeight);
  capture = createCapture(VIDEO);
- capture.size(320,240);
+ capture.size(windowWidth,windowHeight);
  //use a font
  textsize = random(5,100);
  textFont("courier", textsize);
@@ -31,9 +31,9 @@ function setup() {
  // give a initial value to drawCount
  drawCount = 0;
  canvas.style("position", "absolute");
- canvas.style("z-index", 100);
+ canvas.style("z-index", 0);
  capture.style("position", "absolute");
- capture.style("z-index", 0);
+ capture.style("z-index", 1000);
 }
 
 function draw() {
