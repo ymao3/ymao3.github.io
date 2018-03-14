@@ -14,7 +14,7 @@ var col = {
 }
 
 function setup() {
-  console.log("2:16");
+  console.log("2:19");
  mirrorText = "who are you,excuse me,how are you,good,thanks,fuck";
  //split the text into units
  mirrorShadow = mirrorText.split(",")
@@ -42,7 +42,10 @@ function draw() {
   // put drawing code here
   // we need a color for the text
   //background(255,255,255);
+  if(drawCount == 0) {
   image(capture, 0, 0);
+    drawCount++
+}
   col.r = random(255);
   col.g = random(255);
   col.b = random(255);
