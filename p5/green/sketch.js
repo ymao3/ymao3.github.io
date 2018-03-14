@@ -5,6 +5,7 @@ var index;
 var drawCount;
 var video;
 var textsize;
+var canvas;
 var col = {
   r: 255,
   g: 0,
@@ -17,7 +18,7 @@ function setup() {
  //split the text into units
  mirrorShadow = mirrorText.split(",")
  // build a canvas
- createCanvas(windowWidth, windowHeight);
+ canvas = createCanvas(windowWidth, windowHeight);
  capture = createCapture(VIDEO);
  capture.size(320,240);
  //use a font
@@ -28,6 +29,7 @@ function setup() {
  frameRate(6);
  // give a initial value to drawCount
  drawCount = 0;
+ canvas.style("z-index", 8);
 }
 
 function draw() {
