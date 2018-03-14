@@ -14,7 +14,7 @@ var col = {
 }
 
 function setup() {
-  console.log("12:00");
+  console.log("2:13");
  mirrorText = "who are you,excuse me,how are you,good,thanks,fuck";
  //split the text into units
  mirrorShadow = mirrorText.split(",")
@@ -31,9 +31,9 @@ function setup() {
  // give a initial value to drawCount
  drawCount = 0;
  canvas.style("position", "absolute");
- canvas.style("z-index", 0);
+ canvas.style("z-index", 1000);
  capture.style("position", "absolute");
- capture.style("z-index", 1000);
+ capture.style("z-index", -1);
 }
 
 function draw() {
@@ -41,7 +41,7 @@ function draw() {
   //background(255);
   // put drawing code here
   // we need a color for the text
-  backgroun(255,255,255);
+  background(255,255,255);
   image(capture, 0, 0);
   col.r = random(255);
   col.g = random(255);
