@@ -14,7 +14,7 @@ var col = {
 }
 
 function setup() {
-  console.log("2:24");
+  console.log("2:33");
  mirrorText = "who are you,excuse me,how are you,good,thanks,fuck";
  //split the text into units
  mirrorShadow = mirrorText.split(",")
