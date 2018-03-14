@@ -35,7 +35,7 @@ function draw() {
   //background(255);
   // put drawing code here
   // we need a color for the text
-  image(capture, 0, 0);
+
   col.r = random(255);
   col.g = random(255);
   col.b = random(255);
@@ -55,4 +55,5 @@ function draw() {
   	index = 0;
    }
  }
+   image(capture, 0, 0);
 }
