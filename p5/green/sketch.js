@@ -31,9 +31,9 @@ function setup() {
  // give a initial value to drawCount
  drawCount = 0;
  canvas.style("position", "absolute");
- canvas.style("z-index", 1);
+ canvas.style("z-index", 100);
  capture.style("position", "absolute");
- capture.style("z-index", 8);
+ capture.style("z-index", 0);
 }
 
 function draw() {
