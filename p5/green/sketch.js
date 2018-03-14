@@ -21,7 +21,7 @@ function setup() {
  // build a canvas
  canvas = createCanvas(windowWidth, windowHeight);
  capture = createCapture(VIDEO);
- capture.size(window.innerWidth,window.innerHeight);
+ capture.size(windowWidth,windowHeight);
  //use a font
  textsize = random(5,100);
  textFont("courier", textsize);
@@ -43,6 +43,7 @@ function draw() {
   // we need a color for the text
   //background(255,255,255);
   if(drawCount == 0) {
+    capture.size(windowWidth,windowHeight);
     image(capture, 0, 0);
     drawCount++
 }
