@@ -15,7 +15,7 @@ var col = {
 
 function setup() {
   console.log("3:31");
- mirrorText = "who are you,excuse me,how are you,good,thanks,fuck";
+ mirrorText = "what s up,excuse me,how are you,good,thanks,fuck";
  //split the text into units
  mirrorShadow = mirrorText.split(",")
  // build a canvas
